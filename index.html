@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- スマートフォンでも見やすくする設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ブラウザのタブに表示される名前 -->
+  <title>わたしの練習ページ</title>
+
+  <!-- 見た目を整えるCSS -->
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      line-height: 1.8;
+    }
+
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #333333;
+      padding-bottom: 8px;
+    }
+
+    a {
+      color: #0066cc;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #222222;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+    }
+
+    /* スマートフォン用の設定 */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 26px;
+      }
+
+      header {
+        padding: 30px 15px;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ページ上部 -->
+  <header>
+    <h1>わたしの小さなページ</h1>
+    <p>HTMLとCSSを練習するためのページです。</p>
+  </header>
+
+  <!-- ページの中心部分 -->
+  <main>
+
+    <section>
+      <h2>このページについて</h2>
+
+      <p>
+        このページは、自分で文章や色を変更しながら、
+        HTMLの仕組みを覚えるために作りました。
+      </p>
+    </section>
+
+    <section>
+      <h2>好きなこと</h2>
+
+      <ul>
+        <li>散歩すること</li>
+        <li>カフェに行くこと</li>
+        <li>美術を見ること</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>今日のひとこと</h2>
+
+      <p>
+        少しずつ変更して、表示がどう変わるのか確かめてみます。
+      </p>
+
+      <a class="button" href="https://github.com/">
+        GitHubを見る
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ページ下部 -->
+  <footer>
+    <p>練習ページ © 2026</p>
+  </footer>
+
+</body>
+
+</html>
